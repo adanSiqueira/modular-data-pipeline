@@ -5,8 +5,8 @@ Este projeto realiza o download, processamento e unificação de dados utilizand
 ## Estrutura
 
 - `scripts/`: scripts de download e processamento.
-- `data_raw/`: arquivos originais.
-- `data_processed/`: arquivos processados.
+- `data_raw/`: diretório onde são gravados arquivos originais após download feito na execução da Pipeline
+- `data_processed/`: diretório onde são gravados arquivos após tratamento feito na execução da Pipeline
 
 ## Como executar
 
