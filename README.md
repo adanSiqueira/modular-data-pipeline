@@ -59,7 +59,9 @@ Ao final, o arquivo dados_unificados.csv estará disponível na pasta data_proce
 
 ## Por que este projeto é interessante?
 **Automação**: do download ao processamento, tudo pode ser executado com um único comando.
+
 **Reusabilidade**: a classe Dados pode ser aplicada a outros projetos que exijam processos similares.
+
 **Organização**: os dados brutos e processados são armazenados em pastas distintas, seguindo boas práticas de engenharia de dados.
 
 ## Exploração dos Dados
