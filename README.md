@@ -25,7 +25,7 @@ pipeline_dados/
 ```
 
 
-## 🏗️ Como Funciona a Pipeline
+##  Como Funciona a Pipeline
 
 1. **Download**: baixa automaticamente os arquivos JSON e CSV a partir de links públicos, salvando-os na pasta `data_raw`.
 2. **Carregamento**: lê os arquivos baixados para o ambiente de processamento.
@@ -33,7 +33,7 @@ pipeline_dados/
 4. **Unificação**: concatena os dados, preenchendo eventuais informações ausentes.
 5. **Exportação**: salva o resultado final na pasta `data_processed`.
 
-## 🖥️ Scripts e Classes
+## Scripts e Classes
 
 ### `download_dados.py`
 Realiza o download dos arquivos a partir de URLs, armazenando-os automaticamente na pasta `data_raw`.
@@ -47,7 +47,7 @@ Script que instancia a classe `Dados` e executa a pipeline de forma direta, apó
 ### `executar_pipeline.py`
 Script completo que **baixa os arquivos** e **executa a pipeline** automaticamente de ponta a ponta, ideal para processos automatizados.
 
-## 📊 Exemplo de Execução
+## Exemplo de Execução
 
 Para rodar a pipeline completa, basta executar:
 
