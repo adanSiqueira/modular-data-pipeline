@@ -64,7 +64,7 @@ At the end, the dados_unificados.csv file will be available in the data_processe
 
 **Organization**: Raw and processed data are stored in separate folders, following best practices in data engineering.
 
-## Exploração dos Dados
+## Exploring Data
 Inside the notebooks folder, there is an exploratory notebook where initial analyses were conducted to understand the data structure and define the necessary transformations.
 
 ## Requirements
